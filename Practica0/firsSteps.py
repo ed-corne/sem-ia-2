@@ -5,6 +5,7 @@ import matplotlib.pyplot as plt
 #leer datos
 df = pd.read_csv('./datasets/countries.csv')
 print(df.head())
+
 """
 print(df.head())
 

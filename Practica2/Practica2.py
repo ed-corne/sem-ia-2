@@ -59,10 +59,12 @@ print('MSE: ', m.mean_squared_error(y, y_pred))
 #es mejor usar la mediana
 print('MedAE: ', m.median_absolute_error(y, y_pred))
 
+
 #R2 SCORE (Coefieciente de determinacion)
 #el error va de -infinito a 1,pero lo esperado es que sea un numero entre 0 y 1
 #esta es la medida por default que usar cuando se usa regresion
 print('R2-SCORE: ', m.r2_score(y, y_pred))
+
 
 #EVS Coeficiente de variansa explicada, es muy paresido a r2
 print('EVS: ', m.explained_variance_score(y, y_pred))
