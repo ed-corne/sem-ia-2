@@ -63,7 +63,7 @@ df2.sort_values('lifeExp', asending=True)
 #pd.plotting.scatter_matrix(df)
 
 #plt.show()
-"""
+
 #¿Cuantos y cuales paies tienen una esperanza de vida mayor o igual a 80 años en 2002?
 print(df[(df.lifeExp >= 80)&(df.year == 2002)])
 
@@ -72,10 +72,10 @@ print('num paises: ', len(paises))
 print('paises: ', paises)
 
 #¿pais con mayor producto interno bruto historico?
-topCountry = df.sort_values('pop', ascending=True)
-print('pais con mayor pib: ', topCountry.iat[0,0])
+#topCountry = df.sort_values('pop', ascending=True)
+#print('pais con mayor pib: ', topCountry.iat[0,0])
 
-pais = df[df.gdpPerca == max(df.gdpPercap)].country.iat[0]
-print('El pais es: ', )
-"""
+#pais = df[df.gdpPerca == max(df.gdpPercap)].country.iat[0]
+#print('El pais es: ', )
+
 #¿En que año Mexico sobrepaso llos 70 millones de habitantes?
